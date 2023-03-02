@@ -78,7 +78,7 @@ Onde o que nos interessa aqui é o conteúdo da resposta
     "token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJVc2VySW5mbyI6eyJpZCI6MSwibWV0YWRhdGEiOm51bGwsIm5hbWUiOiJwUkVTVCBGdWxsIE5hbWUiLCJ1c2VybmFtZSI6InByZXN0In0sImV4cCI6MTY3Nzc0MzAzMywibmJmIjoxNjc3NzQzMDMzfQ.wVKffo6oSuMiFj8JgQD6nXGQ1n-Xgj-zdXrH7zhGtBM"
 }
 ```
-Onde o token recebido deve ser utilizado em todas as requisições a serem feitas para a API
+O token recebido deve ser utilizado em todas as requisições a serem feitas para a API!
 
 ### Criar uma tabela
 Para simplificação vamos criar uma tabela nova diretamente no banco de dados
@@ -87,6 +87,7 @@ docker-compose exec postgres psql -d prest -U prest -c "create table books (id s
 ```
 ### Utilizando o pRest
 A estrutura de path do pRest é bem simples sendo `/{database}/{schema}/{table}`
+
 Filtros também são possíveis através de query params, como por exemplo:
 
 ```
@@ -147,6 +148,6 @@ Content-Length: 19
 
 {"rows_affected":1}
 ```
-Bom pessoal, esse é o básico para mais operações consulte a documentação oficial <https://docs.prestd.com/>
+Bom pessoal, esse é o básico! Para mais operações consulte a documentação oficial <https://docs.prestd.com/>
 
 
