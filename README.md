@@ -1,5 +1,7 @@
 # Propósito
 Este repositório foi criado com o propósito de demonstrar uma alternativa rápida e extremamente fácil de ter uma API do estilo "data driven" e com zero codificação. Sendo assim uma ótima opção para quando há necessidade de uma prototipação rápida, ou construir uma POC com pouco esforço na parte de backend.
+
+No exemplo desse repositório será criado uma base de dados nova. Mas o que é demonstrado aqui pode facilmente ser aplicado a um banco de dados postgres já existente. Basta configurar as credenciais de conexão com o banco nas variáveis de ambiente do container do pRest.
  
 O arquivo `docker-compose.yml` possui dois serviços: Um banco de dados Postgres e a grande estrela: **pRest** <https://prestd.com>.
  
