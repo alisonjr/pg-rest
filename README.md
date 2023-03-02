@@ -10,6 +10,11 @@ O pRest transforma seu banco de dados Postgres em um serviço Rest instantaneame
 Para entender como funciona as operações de 'CRUD' consulte <https://docs.prestd.com/prestd/docs/api-reference/>. Já aviso que a API rest do pRest é bastante poderosa, posibilitando fazer queries mais complexas inclusive com joins e muito mais, consulte <https://docs.prestd.com/prestd/docs/api-reference/advanced-queries/>
 
 # Como fazer
+
+Os exemplos a seguir foram retirados da documentação oficial do pRest <https://docs.prestd.com/prestd/docs/setup/docker/#with-docker-compose> 
+
+e de um artigo do Elton Minetto <https://eltonminetto.dev/en/post/2021-08-31-prest>
+
 ## Requisitos
  - Ter o Docker instalado
  - Ter o Docker Compose instalado
